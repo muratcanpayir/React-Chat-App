@@ -14,11 +14,13 @@ export default function MessageInput() {
       selectedUser&&
     
     <div className="message-input">
-      <input className={`${theme==="dark"&&"message-input-dark"}`} type="text" placeholder="Type" value={msg} onChange={change}></input>
-      <button onClick={()=>{
+      <form onSubmit={()=>{
         newSelectedUser(msg);
         setMsg("");
-        }}>SEND</button> 
+        }}>
+      <input className={`${theme==="dark"&&"message-input-dark"}`} type="text" placeholder="Type" value={msg} onChange={change}></input>
+      <button >SEND</button> 
+        </form>
       
     </div>
 }
