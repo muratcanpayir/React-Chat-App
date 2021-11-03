@@ -1,5 +1,5 @@
 # React-Chat-App
-Chat App with React. It's a Kodluyoruz Istanbul JavaScript & React Bootcamp homework. It's a Chat app which you can Signup and Login, see chat, send messages and see profile info. I used Context API for stage management. 
+Chat App with React. It's a Kodluyoruz Istanbul JavaScript & React Bootcamp homework. It's a Chat app which you can Signup and Login, see chat, send messages, see profile info and change theme. I used Context API for stage management. 
 
 <h2>Used Technologies</h2>
 <ul>
